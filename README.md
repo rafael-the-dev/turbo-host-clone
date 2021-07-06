@@ -2,17 +2,9 @@
 
 > A Vue.js project
 
-## Build Setup
+## Welcome! 👋
 
-``` bash
-# install dependencies
-npm install
+This is my first clone, i cloned turbo host landing page using VUE JS, I was amazing to work on this 
+project, even though it has some tricks on it. During this project i could test my frontend skills
+, I built it using pure css and vanilla js.
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
