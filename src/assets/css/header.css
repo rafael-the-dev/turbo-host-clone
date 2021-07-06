@@ -1,0 +1,128 @@
+.header {
+    background-color: var(--light-blue);
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    transition: all 600ms;
+}
+
+.header__logo-container {
+    height: 53px;
+    width: 143px;
+}
+
+.header__logo {
+    height: 100%;
+    width: 100%;
+}
+
+.header__desktop {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.header__link {
+    color: var(--white);
+    display: block;
+    font-size: 1.04rem;
+    padding: .7rem 1.1rem;
+    text-decoration: none;
+}
+
+.header__link--login {
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.fa {
+    font-size: .85rem;
+    margin-right: 4px;
+}
+/* ============================== MOBILE ========================*/
+
+.header__menu-button {
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    display: none;
+    flex-direction: column;
+    height: 25px;
+    justify-content: center;
+    outline: none;
+    padding-left: 0;
+    padding-right: 0;
+    width: 5%;
+}
+
+.header__line {
+    background-color: var(--black);
+    height: 3px;
+    margin-bottom: 5px;
+    transition: transform 400ms;
+    width: 100%;
+}
+
+.header__line:last-child {
+    margin-bottom: 0;
+}
+
+
+.header__navigation {
+    padding: 1rem 4%;
+    transition: display 1s ease-in-out;
+}
+
+.header__list {
+    background-color: #4AA8E0;
+    padding: 1rem 2%;
+}
+
+/*.header__navigation--mobile {
+    background-color: var(--white);
+    border-top: 2px solid #000;
+    display: block !important;
+    left: 0;
+    position: absolute;
+    top: 59px;
+    width: 100%;
+    z-index: 5;
+}
+
+.dropdown {
+    background-color: #232b2d;
+    display: none;
+    min-width: 230px;
+    padding-bottom: 10px;
+    position: absolute;
+    left: 0;
+    top: 25px;
+}
+
+.dropdown__item {
+    width: 100%;
+}
+
+.dropdown__item--hidden {
+    background-color: #fff;
+    height: 19px;
+}*/
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    .dropdown {
+        background-color: #F1F2F3;
+        display: none;
+        width: 100%;
+        padding-bottom: 10px;
+        position: relative;
+        left: 0;
+        top: 0;
+        transition: display 400ms;
+    }
+
+    .dropdown__item {
+        width: 100%;
+    }
+}

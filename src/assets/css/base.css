@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap');
+:root {
+    --black: #000;
+    --light-grey: #F5F5F5;
+    --dark-blue: hsl(233, 26%, 24%);
+    --grayish-blue: hsl(233, 8%, 62%);
+    --light-blue: #458CDE;
+    --light-grayish-blue: hsl(220, 16%, 96%);
+    --lime-green: hsl(136, 65%, 51%);
+    --white: #fff;
+    --yellow: #fb8500;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
